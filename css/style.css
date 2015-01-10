@@ -2,6 +2,16 @@
   padding:0;
   margin:0;
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #333333;
+}
+
+#main {
+  margin: 30px;
+  background-color: #F3F2ED;
 }
 
 .clearfix {
@@ -14,8 +24,9 @@
 }
 
 h1 {
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
-  color: #F5A623;
+  color: #EF6A0B;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +34,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #EF6A0B;
   line-height: 29px;
   padding: 10px;
 }
@@ -47,7 +58,6 @@ h2, h3, h4, h5 {
   padding-left: 5%;
   padding-right: 5%;
 }
-
 
 .date-text {
   font-style: italic;
@@ -73,7 +83,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #129ECA;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -82,21 +92,36 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #333333;
   line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #EF6A0B;
   display: none;
+}
+
+#onlineH3 {
+  padding-left: 0;
+  padding-top: 20px;
+  color: #333333;
+
 }
 
 .orange {
   background-color: #F5AE23;
 }
 
+.gray-connect {
+  background-color: #CDCBC8;
+}
+
+.light-footer {
+  color: #E7E7E7;
+}
+
 .orange-text {
-  color: #F5AE23;
+  color: #EF6A0B;
 }
 
 .white-text {
@@ -104,8 +129,13 @@ a {
   color: #FFFFFF;
 }
 
+.dark-text {
+  font-weight: bold;
+  color: #333333;
+}
+
 .gray {
-  background-color: #F3F3F3;
+  background-color: #EDEDED;
   padding-bottom: 10px;
   clear:both;
 }
@@ -116,7 +146,9 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #EDEDED;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
 
 .flex-box {
